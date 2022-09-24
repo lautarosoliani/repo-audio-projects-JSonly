@@ -67,3 +67,7 @@ body {
   border-radius: 3px;
   color: white;
 }
+
+.d-flex {
+  gap: 125px;
+}
