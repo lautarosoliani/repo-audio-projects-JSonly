@@ -71,3 +71,8 @@ body {
 .d-flex {
   gap: 125px;
 }
+
+h6,
+h1 {
+  color: pink;
+}
