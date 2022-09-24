@@ -39,3 +39,31 @@ body {
   width: 323px;
   height: 64px;
 }
+
+.completed {
+  width: 75px;
+  height: 14px;
+  left: 1056px;
+  top: 19px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 16px;
+  /* or 145% */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Text 2 */
+
+  color: #444851;
+}
+
+.buttonNewAudio {
+  background: #67c083;
+  box-shadow: 0px 2px 6px rgba(103, 192, 131, 0.2);
+  border-radius: 3px;
+  color: white;
+}

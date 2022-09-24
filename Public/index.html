@@ -65,15 +65,35 @@
                 <div class=" left-navbar">
                     <h1>Projects</h1>
                 </div>
-                <div class="rightNavbar">
-                    <nav class="navbar">
+                <div class="rightNavbar d-flex">
+                    <SearchBar>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search"">
                             <button class=" btn btn-light my-2 my-sm-0" type="submit">
                             <img src="./questionIcon.png" alt="Search">
                             </button>
                         </form>
-                    </nav>
+                    </SearchBar>
+                    <Stats class="d-inline-block">
+                        <div>
+                            <p class="completed">COMPLETED</p>
+                        </div>
+                        <div>
+                            <img src="./CheckIcon.png" alt="Checked Icon" style="width: 17px; height: 17px;">
+                            <img src="./28.png" alt="Number of stats" style="width: 24px; height: 16px;">
+                        </div>
+                    </Stats>
+                    <NewAudioButton>
+
+                        <button type="button" class="btn buttonNewAudio">
+                            <img src="./MicIcon.png" alt="New audio project">
+                            New Audio Project
+                        </button>
+                        <!-- <button>
+                            <img src="./MicIcon.png" alt="New audio button"
+                            style="width: 10px; height: 20px; background: #67C083">
+                        </button> -->
+                    </NewAudioButton>
                 </div>
             </navbar>
         </div>
