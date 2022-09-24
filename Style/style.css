@@ -72,11 +72,10 @@ body {
   gap: 125px;
 }
 
-h6,
-h1 {
-  color: pink;
-}
-
 .text-gray {
   color: #8f979d;
+}
+
+hr {
+  box-shadow: 10px 2px 2px #8f979d;
 }
