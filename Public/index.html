@@ -16,11 +16,11 @@
 
     <body>
         <!-- FATHER HEADER WITH 3 CHILDS -> TOP, MAIN & BOTTOM -->
-        <HeaderContainer>
+        <div>
             <!-- TOP HEADER -> 1 NAVBAR WITH: LOGO, BALANCE, USER -->
-            <topHeader>
+            <div>
                 <!-- NAVBAR -->
-                <Navbar class="navbar">
+                <div class="navbar">
                     <!-- LEFT NAVBAR -->
                     <div class="left-navbar">
                         <img class="ml-4" src="./Logo.png" alt="Brand logo" style="width: 103px; height: 23px;"></img>
@@ -28,21 +28,21 @@
                     <!-- BALANCE -->
                     <div class="rightNavbar">
                         <img src="./Vector.png" alt="" class="vector mr-4">
-                        <Balance class="balance">
+                        <span class="balance">
                             <img src="./Balance.png" alt="Wallet image" class="mr-2">
                             <span class="mr-1">8 425 152</span>
                             <span class="mr-4">SAT</span>
                             <span class="mr-4">0 USD</span>
                             <button class="greenButton mr-4">Add Funds</button>
-                        </Balance>
+                        </span>
                         <img src="./Vector.png" alt="" class="vector mr-4">
                         <!-- USER -->
-                        <User class="d-inline-flex">
+                        <div class="d-inline-flex">
                             <!-- Profile Image -->
                             <img class="mt-2" src="./User.png" alt="User image"
                                 style="width: 45px; height: 45px; border-radius: 50%">
                             <!-- Drop Menu -->
-                            <DropMenu class="nav-item dropdown">
+                            <div class="nav-item dropdown">
                                 <h6 class="dropdown-toggle ml-2 mr-4 mt-4" style="color: #444851;" id="navbarDropdown"
                                     role="button" data-toggle="dropdown">
                                     Jonathan Smith
@@ -54,29 +54,29 @@
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="#">Sign Out</a>
                                 </div>
-                            </DropMenu>
-                        </User>
+                            </div>
+                        </div>
                     </div>
-                </Navbar>
-            </topHeader>
-        </HeaderContainer>
+                </div>
+            </div>
+        </div>
         <!-- NAVBAR END -->
         <!-- MAIN HEADER -> SEARCH, STATS, BUTTON, TITLE -->
-        <MainHeader class="mainHeader">
-            <navbar class="navbar mt-2">
+        <div class="mainHeader">
+            <div class="navbar mt-2">
                 <div class=" left-navbar">
                     <h3 class="ml-4" style="color: #444851;">Projects</h3>
                 </div>
                 <div class="rightNavbar d-flex">
-                    <SearchBar>
+                    <div>
                         <form class="form-inline">
                             <input class="form-control mr-sm-2" type="search" placeholder="Search"">
                             <button class=" btn btn-light my-2 my-sm-0" type="submit">
                             <img src="./questionIcon.png" alt="Search">
                             </button>
                         </form>
-                    </SearchBar>
-                    <Stats class="d-inline-block">
+                    </div>
+                    <div class="d-inline-block">
                         <div>
                             <p class="completed font-weight-bold">COMPLETED</p>
                         </div>
@@ -84,8 +84,8 @@
                             <img src="./CheckIcon.png" alt="Checked Icon" style="width: 17px; height: 17px;">
                             <img src="./28.png" alt="Number of stats" style="width: 24px; height: 16px;">
                         </div>
-                    </Stats>
-                    <NewAudioButton class="mr-4">
+                    </div>
+                    <div class="mr-4">
 
                         <button type="button" class="btn buttonNewAudio">
                             <img src="./MicIcon.png" alt="New audio project">
@@ -95,12 +95,12 @@
                             <img src="./MicIcon.png" alt="New audio button"
                             style="width: 10px; height: 20px; background: #67C083">
                         </button> -->
-                    </NewAudioButton>
+                    </div>
                 </div>
-            </navbar>
-        </MainHeader>
+            </div>
+        </div>
         <!-- BOTTOM HEADER -> NAME, CORRECTIONS, COST USD, COST SAT, STATUS -->
-        <BottomHeader>
+        <div>
             <div class="container-fluid mt-3">
                 <div class="row">
                     <div class="col-sm text-gray">
@@ -126,7 +126,7 @@
                 </div>
             </div>
             <hr class="shadowed">
-        </BottomHeader>
+        </div>
 
 
 
@@ -134,9 +134,9 @@
 
 
         <!-- MAIN TABLE -->
-        <TableContainer>
+        <div>
             <!-- EACH ROW -> OWN VALUES OF: NAME, CORRECTIONS, COST USD, COST SAT, STATUS + INTERACTIVE BUTTON  -->
-            <Row>
+            <div>
                 <div class="container-fluid mt-3">
                     <div class="row">
                         <div class="col-sm text-gray">
@@ -166,8 +166,8 @@
                     </div>
                 </div>
                 <hr>
-            </Row>
-            <Row>
+            </div>
+            <div>
                 <div class="container-fluid mt-3">
                     <div class="row">
                         <div class="col-sm text-gray">
@@ -196,8 +196,8 @@
                     </div>
                 </div>
                 <hr>
-            </Row>
-            <Row>
+            </div>
+            <div>
                 <div class="container-fluid mt-3">
                     <div class="row">
                         <div class="col-sm text-gray">
@@ -227,8 +227,8 @@
                     </div>
                 </div>
                 <hr>
-            </Row>
-            <Row>
+            </div>
+            <div>
                 <div class="container-fluid mt-3">
                     <div class="row">
                         <div class="col-sm text-gray">
@@ -257,8 +257,8 @@
                     </div>
                 </div>
                 <hr>
-            </Row>
-            <Row>
+            </div>
+            <div>
                 <div class="container-fluid mt-3">
                     <div class="row">
                         <div class="col-sm text-gray">
@@ -288,8 +288,8 @@
                     </div>
                 </div>
                 <hr>
-            </Row>
-            <Row>
+            </div>
+            <div>
                 <div class="container-fluid mt-3">
                     <div class="row">
                         <div class="col-sm text-gray">
@@ -318,10 +318,10 @@
                     </div>
                 </div>
                 <hr>
-            </Row>
-        </TableContainer>
+            </div>
+        </div>
         <!-- STICKY FOOTER -> CONTAINS BOXES, FIRST, PREVIOUS, 1 TO 6, NEXT, LAST-->
-        <nav>
+        <div>
             <ul class="pagination justify-content-center">
                 <li class="page-item"><a class="page-link" href="#">First</a></li>
                 <li class="page-item"><a class="page-link" href="#">Next</a></li>
@@ -334,7 +334,7 @@
                 <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                 <li class="page-item"><a class="page-link" href="#">Last</a></li>
             </ul>
-        </nav>
+        </div>
         <!-- BOOTSTRAP SCRIPTS -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
