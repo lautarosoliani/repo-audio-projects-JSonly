@@ -40,10 +40,10 @@ body {
   height: 4rem;
 }
 
-.text--status {
+.completed {
   /* position: absolute; */
-  width: 4.688rem;
-  height: 0.4rem;
+  width: 75px;
+  height: 14px;
   /* left: 1056px;
   top: 19px; */
 
