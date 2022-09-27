@@ -40,10 +40,32 @@ body {
   height: 4rem;
 }
 
+.completed--28--style--text {
+  /* position: absolute; */
+  width: 4.688rem;
+  height: 0.438rem;
+  /* left: 1056px;
+  top: 19px; */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.688rem;
+  line-height: 1.25rem;
+  /* or 145% */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Text 2 */
+
+  color: #444851;
+}
+
 .status--style--text {
   /* position: absolute; */
-  width: 75px;
-  height: 14px;
+  width: 4.688rem;
+  height: 0.875rem;
   /* left: 1056px;
   top: 19px; */
 
