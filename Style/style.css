@@ -1,6 +1,7 @@
 body {
   font-family: Roboto, Roboto Black, Oxygen, Ubuntu, Cantarell, "Open Sans",
     "Helvetica Neue", sans-serif;
+  font-size: 1rem;
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 /* overflow-y: hidden; Hide vertical scrollbar */
@@ -8,17 +9,16 @@ body {
 .navbar {
   background: #ffffff;
   box-shadow: inset 0px -1px 0px #e5e8ea;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .greenButton {
   box-sizing: border-box;
 
-  /* position: absolute; */
-  width: 92px;
-  height: 32px;
-  left: 1034px;
-  top: 16px;
+  width: 5.75rem;
+  height: 2rem;
+  left: 8.37rem;
+  top: 1rem;
 
   border: 1px solid #4bcdc4;
   border-radius: 3px;
@@ -27,30 +27,31 @@ body {
 }
 
 .vector {
-  width: 0px;
-  height: 64px;
-  left: 803px;
-  top: 0px;
+  width: 0rem;
+  height: 4rem;
+  left: 50.18rem;
+  top: 0rem;
 
-  border: 0.5px solid #e5e8ea;
+  border: 0.031rem solid #e5e8ea;
 }
 
 .balance {
-  width: 323px;
-  height: 64px;
+  width: 20.18rem;
+  height: 4rem;
 }
 
 .completed {
+  /* position: absolute; */
   width: 75px;
   height: 14px;
-  left: 1056px;
-  top: 19px;
+  /* left: 1056px;
+  top: 19px; */
 
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 16px;
+  font-weight: bold;
+  font-size: 0.688rem;
+  line-height: 1.25rem;
   /* or 145% */
 
   letter-spacing: 0.06em;
@@ -61,15 +62,61 @@ body {
   color: #444851;
 }
 
+.number--28 {
+  width: 2rem;
+  height: 2rem;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  /* display: flex;
+  align-items: center; */
+  letter-spacing: 0.01rem;
+
+  /* Text 2 */
+
+  color: #444851;
+}
+
+.checked--icon {
+  width: 1.079rem;
+  height: 1.063rem;
+}
+
+.completed--28--container {
+  width: 4.688rem;
+  height: 2.875rem;
+}
+
 .buttonNewAudio {
   background: #67c083;
-  box-shadow: 0px 2px 6px rgba(103, 192, 131, 0.2);
-  border-radius: 3px;
+  box-shadow: 0rem 0.125rem 0.375rem rgba(103, 192, 131, 0.2);
+  border-radius: 0.188rem;
   color: white;
 }
 
+.in--progress {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.688rem;
+  line-height: 1.25rem;
+  /* or 182% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /* Main Color */
+
+  color: #67c083;
+}
+
 .d-flex {
-  gap: 125px;
+  gap: 7.813rem;
 }
 
 .text-gray {
@@ -77,7 +124,7 @@ body {
 }
 
 .shadowed {
-  box-shadow: 10px 2px 2px #8f979d;
+  box-shadow: 0.625rem 0.125rem 0.125rem #8f979d;
 }
 
 .font-weight-bold {
