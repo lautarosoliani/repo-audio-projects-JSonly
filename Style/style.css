@@ -222,3 +222,9 @@ body {
   background-color: #5a4181 !important;
   border: solid 1px #5a4181;
 }
+
+.button--hover:hover {
+  transition-duration: 0.4s;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.24),
+    0 4px 12.5px 0 rgba(0, 0, 0, 0.19);
+}
