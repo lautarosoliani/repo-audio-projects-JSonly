@@ -40,7 +40,7 @@ body {
   height: 4rem;
 }
 
-.completed {
+.text--status {
   /* position: absolute; */
   width: 4.688rem;
   height: 0.4rem;
